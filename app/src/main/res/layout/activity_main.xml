@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/AnswerBtn"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="61dp"
+        android:text="@string/btnTextGetAnswer"
+        app:layout_constraintBottom_toTopOf="@+id/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NametxtView" />
+
+    <TextView
+        android:id="@+id/NametxtView"
+        android:layout_width="305dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="61dp"
+        android:text="@string/labelText"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EnterB"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/EnterB"
+        android:inputType="numberDecimal|numberSigned"
+        android:maxLength="30"
+        app:layout_constraintBottom_toTopOf="@+id/answer"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EnterA"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:maxLength="30"
+        android:hint="@string/EnterA"
+        android:inputType="numberDecimal|numberSigned"
+        app:layout_constraintBottom_toTopOf="@+id/EnterB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NametxtView" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="296dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="64dp"
+        android:textSize="15pt"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

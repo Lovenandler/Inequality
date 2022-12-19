@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="EnterA">Enter a</string>
+    <string name="EnterB">Enter b</string>
+    <string name="labelText">Solving a linear inequality</string>
+    <string name="btnTextGetAnswer">Solve</string>
+</resources>

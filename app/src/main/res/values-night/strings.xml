@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnTextGetAnswer">Решить</string>
+    <string name="labelText">Решение линейного неравенства</string>
+    <string name="EnterB">Введите b</string>
+    <string name="EnterA">Введите a</string>
+</resources>

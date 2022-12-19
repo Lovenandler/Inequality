@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="btnTextGetAnswer">Решить</string>
+    <string name="labelText">Решение линейного неравенства</string>
+    <string name="EnterB">Введите b</string>
+    <string name="EnterA">Введите a</string>
+</resources>
